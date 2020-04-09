@@ -27,4 +27,4 @@ puts beyonce.name
 
 
 
-class PartnerError < StandardError
+
