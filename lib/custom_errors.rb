@@ -10,6 +10,9 @@ class Person
     person.partner = self
   end
 
+  #custom error creation
+  class PartnerError < StandardError
+  end
 end
 
 beyonce = Person.new("Beyonce")
@@ -18,4 +21,4 @@ puts beyonce.name
 
 
 
-
+class PartnerError < StandardError
